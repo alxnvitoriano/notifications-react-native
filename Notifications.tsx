@@ -1,10 +1,6 @@
 import { View, Text, StyleSheet, FlatList } from "react-native";
 import React from "react";
 import { MaterialIcons } from "@expo/vector-icons";
-import {
-  SafeAreaFrameContext,
-  SafeAreaView,
-} from "react-native-safe-area-context";
 import { BottomTabBarHeightCallbackContext } from "@react-navigation/bottom-tabs";
 
 export default function Notifications() {
